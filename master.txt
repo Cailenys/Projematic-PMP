@@ -1,1 +1,3 @@
-Master file
+Master txt file
+
+this will be the way to go.
