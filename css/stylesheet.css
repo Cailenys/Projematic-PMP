@@ -1,0 +1,16 @@
+* {
+    font-family: Tahoma, Georgia, Verdana, sans-serif;
+    /* background-color: rgb(252, 247, 248); */
+}
+
+input{
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+    border-radius: 4rem;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+}
