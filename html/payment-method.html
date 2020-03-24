@@ -8,25 +8,40 @@
     <script type="text/script" src="../javascript.js" defer></script>
 </head>
 <body>
-    <section>
-        <h2>Secure Order Form</h2>
+    <header>
+        <nav class="flex-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">LinkedIn</a>
+        </nav>
+    </header>
+    <h2>Secure Order Form</h2>
+    <section class="container">
         <section>
             <h3>Payment Options</h3>
             <form id="cards" action="#" method="get">
+                <div>
                 <label>
                     Card Number
                 </label>
                 <input name="cardnumber" id="cardnumber" type="text"><br>
+                </div>
+                <div>
                 <label>
                     Expiration Date
                 </label>
-                <input name="monthdate" id="monthdate" type="text">
-                <input name="yeardate" id="yeardate" type="text"><br>
+                <input class="mdate" name="monthdate" id="monthdate" type="text">
+                <input class="mdate" name="yeardate" id="yeardate" type="text"><br>
+                </div>
+                <div>
                 <label>
                     Security Code
                 </label>
-                <input name="cardnumber" id="cardnumber" type="text">
-                <h3>Client Details</h3>
+                <input class="mdate" name="cardnumber" id="cardnumber" type="text">
+            </div>
+            </form>
+            <h3>Client Details</h3>
             <form id="personalinfo" action="#" method="get">
                 <label>
                     Full Name
@@ -38,6 +53,16 @@
                 <input name="email" id="email" type="text"><br>
                 <button id="submit">Submit</button>
             </form>
+        </section>
+        <section class="confirmation">
+            <h3>Order Information</h3>
+            <div>
+                <ul>
+                    <li class="cname">Projematic Client</li>
+                    <li class="cemail">someone@gmail.com</li>
+                    <li class="camount">USD50</li>
+                </ul>
+            </div>
         </section>
     </section>
 </body>
