@@ -1,3 +1,298 @@
+/******************************************************************************************
+------------------------------------ TABLE OF CONTENT -------------------------------------
+1. Universal Styles (typograghy)
+2. Header & Nav Style
+3. Main Body Style
+4. Footer Content | Copy Rights
+5. Media Queries 
+******************************************************************************************/
+
+/******************************************************************************************
+----------------------------------- COLOUR GUIDE ------------------------------------------
+# Light pink (backround): #FCF7F8
+# Transparent (Nav bar):#0D0D0D
+# Navy blue (text): #17255A
+*******************************************************************************************
+******************************************************************************************/
+
+
+
+
+/**********************************************
+*
+1. Universal Styles (typograghy)
+*
+**********************************************/
+html {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-family: 'Open Sans';
+    font-family: 'Montserrat';
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/hero-img.jpg') top center no-repeat;
+    background-size: cover;
+   }
+  
+
+/**********************************************
+*
+2. Header & Nav Style
+*
+**********************************************/
+
+
+h2{ text-align: center;}
+
+header h1{
+ color: #0D0D0D;
+ font-size: 10px;
+ font-weight: bold;
+}
+
+header h2 {
+font-size: 12px;
+ }
+
+header h3{ font-size:15px }
+
+header h1, h2{
+ text-align: center;
+ color:#FCF7F8}
+
+header h3 { text-align: center;
+ color: #00E6E6;}
+
+/* Navegation bar */
+
+.menu-bar a.active { /*Add a color to the active/current link */
+    background-color: none;
+    color:#FCF7F8;
+}
+
+li a {
+color: #FCF7F8;
+text-decoration: none;
+display: block;
+padding:5px;}
+
+  
+ul {
+    list-style-type: none;
+   
+    overflow: hidden;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    margin: 0;
+    
+}
+
+.menu li a:hover {
+    background-color:#C0C6D0;
+    color:#17255A;
+}
+  
+.menu li{
+    float: right;
+    height: 20px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 27px;
+    height: 20px;
+}
+    
+nav .logo-image img{ 
+ float: left;
+ height:30px;
+ width: 200px;
+ text-align: center;
+ margin: 27px 200px 0 100px;
+ background-color: transparent;
+
+}
+  
+
+.header-box{margin-left: 40px;}
+.header-box h3{
+    position: relative;
+    top: 30px;
+}
+  
+.header-box h2{ margin-top: 35px;}
+
+button {
+  margin: 27px 20px;
+  border-radius: 1em;
+  border: none;
+  padding: 0 0.5em;
+  line-height: 0.1;
+  font-size: 1.25em;
+  font-family: inherit;
+  font-weight: 50;
+  text-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
+  background: black;
+
+  align-items: auto;
+}
+
+button p {
+  color: #f2f2f2;
+  font-size: 12px;
+}
+
+button[class] {
+  float: right;
+  max-width: 100px;
+  outline: none;
+  transition: all .25s;
+}
+
+.colored-focus:hover {
+box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 3px 3px 15px 2px rgba(255, 51, 0);
+}
+
+
+/******************************
+Flexbox Layout- Flow Chart
+*******************************/
+li .headline-charts {
+  float: left;
+  height: 20px;
+  padding: 20px 100px 20px 100px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 27px;
+  width: 5%;
+}
+
+.chart-container {
+    display: flex; /* FLEX BOX*/
+    width:100%;
+    min-height:auto;
+    justify-content:space-between;
+    
+  }
+
+ 
+  
+  .chart1, .chart2, .chart3, .chart4, .chart5 {
+    width: 20%;
+    margin: 3vw;
+    background-color: #FCF7F8;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 9px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    text-decoration:none;
+    height: 300px;
+  }
+  
+  
+  
+  .button-chart {
+    display: block;
+    margin: auto;
+    border-color: #FF3300;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 25px;
+    position: relative;
+    top: 230px;
+    transition: all .25s;
+  }
+
+  .button-chart:hover {
+    background: #FF3300;
+  }
+  
+  .overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup1 .popup2 .popup3 .popup4 .popup5{
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 20%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .chart-container p{
+    margin-top: 0;
+    color:#FCF7F8;
+  }
+  
+
+  .popup1, .popup2, .popup3, .popup4, .popup5, .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF3300;
+  }
+
+  .popup1 .popup2 .popup3 .popup4 .popup5 .close:hover {
+    color: #FF3300;
+  }
+  .popoup1 .popup2 .popup3 .popup4 .popup5 .content {
+    max-height: 20%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .chart-container{
+      width: 70%;
+    }
+    .popup1 .popup2 .popup3 .popup4 .popup5 {
+      width: 70%;
+    }
+  }
+
+
+/**********************************************
+*
+4.  Footer Content | Copy Rights
+*
+**********************************************/
+  
+  .flex-copyright p {
+    text-align: center;
+    font-size: 10px;
+    color: #FCF7F8;
+    margin-bottom: 20px;
+   
+  }
+
+  
+/**********************************************
+***********************************************
+7. Media Queries  
+***********************************************
+***********************************************/
+
+
+
 * {
     font-family: Tahoma, Georgia, Verdana, sans-serif;
     /* background-color: rgba(252, 247, 248, 0.8); */
