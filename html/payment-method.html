@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Page</title>
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/payment.css">
     <script type="text/script" src="../javascript.js" defer></script>
 </head>
+
 <body>
     <header>
-        <nav class="flex-nav">
+        	<!-- HEADER-->
+	<header class="header">
+
+		<!-- NAVEGATION BAR-->
+		<nav class=navBar>
+			<!-- Image Logo -->
+			<a class="logo-image" href="payment-method.html"><img src="../images/projematic-log.png" alt="Projematic's Logo"></a>
+
+			<!-- Subscribe button-->
+			<button class="colored-focus">
+				<p>Subscribe</p>
+			</button>
+			<!-- Menu -->
+			<div class="menu-bar">
+				<ul class="menu">
+					<li><a href="#" class="navBar menu">Log in</a></li>
+					<li><a href="#" class="navBar menu">LinkedIn</a> </li>
+					<li><a href="#" class="navBar menu">Services</a> </li>
+					<li><a href="index.html" class="active navBar">Home</a> </li>
+				</ul>
+			</div>
+
+		</nav>
+        <!-- <nav class="flex-nav">
             <a href="#">Home</a>
-            <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">LinkedIn</a>
-        </nav>
+        </nav> -->
     </header>
     <h2>Secure Order Form</h2>
     <section class="container">
@@ -22,48 +46,56 @@
             <h3>Payment Options</h3>
             <form id="cards" action="#" method="get">
                 <div>
-                <label>
-                    Card Number
-                </label>
-                <input name="cardnumber" id="cardnumber" type="text"><br>
+                    <label>
+                        Card Number
+                    </label>
+                    <input name="cardnumber" id="cardnumber" type="text"><br>
                 </div>
                 <div>
-                <label>
-                    Expiration Date
-                </label>
-                <input class="mdate" name="monthdate" id="monthdate" type="text">
-                <input class="mdate" name="yeardate" id="yeardate" type="text"><br>
+                    <label>
+                        Expiration Date
+                    </label>
+                    <input class="mdate" name="monthdate" id="monthdate" type="text">
+                    <input class="mdate" name="yeardate" id="yeardate" type="text"><br>
                 </div>
                 <div>
-                <label>
-                    Security Code
-                </label>
-                <input class="mdate" name="cardnumber" id="cardnumber" type="text">
-            </div>
-            </form>
-            <h3>Client Details</h3>
-            <form id="personalinfo" action="#" method="get">
-                <label>
-                    Full Name
-                </label>
-                <input name="fname" id="fname" type="text"><br>
-                <label>
-                    Email Address
-                </label>
-                <input name="email" id="email" type="text"><br>
+                    <label>
+                        Security Code
+                    </label>
+                    <input class="mdate" name="cardnumber" id="cardnumber" type="text">
+                </div>
+                <h3>Client Details</h3>
+                <div>
+                    <label>
+                        Full Name
+                    </label>
+                    <input name="fname" id="fname" type="text"><br>
+                </div>
+                <div>
+                    <label>
+                        Email Address
+                    </label>
+                    <input name="email" id="email" type="text"><br>
+                </div>
                 <button id="submit">Submit</button>
             </form>
         </section>
-        <section class="confirmation">
+        <!-- <section class="confirmation">
             <h3>Order Information</h3>
             <div>
                 <ul>
                     <li class="cname">Projematic Client</li>
                     <li class="cemail">someone@gmail.com</li>
-                    <li class="camount">USD50</li>
+                    <li class="price">USD50</li>
                 </ul>
             </div>
-        </section>
+        </section> -->
     </section>
+    <footer>
+        <div class="flex-copyright">
+            <p>&copy; Copy Right 2020. All right reserved to Projematic</p>
+        </div>
+    </footer>
 </body>
+
 </html>
