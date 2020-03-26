@@ -201,7 +201,7 @@ Grid Area- Flow Chart
    bottom: 0;
    left: 0;
    right: 0;
-   background: rgba(252, 247, 248, 0.7);
+   background: rgba( 13, 13, 13, 0.7);
    transition: opacity 500ms;
    visibility: hidden;
    opacity: 0;
