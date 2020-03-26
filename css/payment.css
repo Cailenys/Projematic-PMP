@@ -15,7 +15,7 @@ h2{
 h3{
     display: block;
     /* background-color: rgba(192, 198, 208, 0.8); */
-    background-image: linear-gradient(to right, rgba(192, 198, 208, 0.8), rgba(252, 247, 248, 0.8));
+    /* background-image: linear-gradient(to right, rgba(192, 198, 208, 0.8), rgba(252, 247, 248, 0.8)); */
     height: 35px;
     text-align: center;
     align-content: center;
@@ -77,6 +77,8 @@ button{
     margin-left: 250px;
 }
 
+
+
 /**********************************************
 *
 2. Header & Nav Style
@@ -114,6 +116,7 @@ ul {
 .menu li a:hover {
     background-color:#C0C6D0;
     color:#17255A;
+    border-radius: 4em;
 }
   
 .menu li{
@@ -124,6 +127,7 @@ ul {
     font-size: 12px;
     line-height: 27px;
     height: 20px;
+    font-family: Tahoma, Georgia, Verdana, sans-serif;
 }
     
 nav .logo-image img{ 

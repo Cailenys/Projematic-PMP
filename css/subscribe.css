@@ -1,7 +1,6 @@
 html {
     font-family: Tahoma, Georgia, Verdana, sans-serif;
     background: rgba(252, 247, 248, 0.5)
-    background-size: cover;
     /* background-color: rgba(252, 247, 248, 0.8); */
 }
 
@@ -9,8 +8,8 @@ form {
     border: 2px solid #c0c6d0;
     border-radius: 4px;
     width: 40%;
-    height: auto;
-    margin-left: 20rem;
+    height: 350px;
+    margin: 120px 25rem;
 }
 
 .flexlogin{
@@ -27,47 +26,67 @@ input[type=text], input[type=password]{
     display: inline-block;
     box-sizing: border-box;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 4em;
+    text-align: center;
 }
 
 button {
     background-color:#003399;
     color: #c0c6d0;
-    padding: 14px 20px;
+    font-weight: bold;
+    padding: 10px 20px;
     margin: 10px 0;
     width: 300px;
     border: none;
-    border-radius: 5px;
-  }
+    border-radius: 4em;
+}
   
  button:hover {
     background-color: rgba(255, 51, 0, 0.7);
-  }
+    font-size: 20px;
+}
   
-.bcancel {
-    background-color: rgba(255, 51, 0, 0.7);
-    width: auto;
-  }
-
 .fpassword {
-   padding-left: 100px;
+   padding-left: 80px;
    text-align: justify;
    justify-content: space-between;
+   margin-top: 20px;
 }
 
 .password{
     padding-left: 100px;
 }
 
-@media screen and (max-width: 400px) { 
+footer{
+    display: block; 
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    justify-content: center;
+    margin-left: 350px;
+    color:#17255A;
+}
+
+/*For Desktop and Tablet*/
+/* @media screen and (max-width: 798px) { 
     .password { 
         display: block; 
         float: none; 
-    } 
-    .bcancel { 
-        width: 100%;
-    } 
-} 
+    }
+    input[type=text], input[type=password]{
+        max-width: 300px;
+        max-height: 30px;
+    }
+    button {
+        width: 300px;
+    }
+    form {
+        width: 40%;
+        height: 350px;
+        margin: 120px 25rem;
+        border: none;
+    }
+}  */
 
 /**********************************************
 *
@@ -98,7 +117,7 @@ ul {
    
     overflow: hidden;
     background-color: transparent;
-    font-family: 'Montserrat';
+    font-family: Tahoma;
     margin: 0;
     
 }
@@ -106,6 +125,8 @@ ul {
 .menu li a:hover {
     background-color:#C0C6D0;
     color:#17255A;
+    border-radius: 4em;
+    font-size: 20px;
 }
   
 .menu li{
