@@ -227,7 +227,6 @@ Grid Area- Flow Chart
     margin-top: 0;
     text-align: center;
     color: #FF3300;
-    font-size: 12px;
   }
   
 
@@ -239,7 +238,7 @@ Grid Area- Flow Chart
     font-size:15px;
     font-weight: bold;
     text-decoration: none;
-    color: #003399;
+    color: #00E6E6;
     margin-top: 80px;
   }
 
@@ -251,9 +250,11 @@ Grid Area- Flow Chart
     overflow: auto;
   }
   
-  .content p, .close { color: #FF3300;}
+  .content p, .close { 
+  
+    color: #FF3300;}
  
-  .content i {color: #FF3300;}
+ 
   charts-main-container h3{
     color: #FCF7F8;
     font-size: 12px;
@@ -263,6 +264,9 @@ Grid Area- Flow Chart
     color: transparent;
   }
  
+  .fa-download, .fa-times-circle{ 
+    margin-right: -60px;
+  }
  /******************************
     Chart content
   *******************************/
@@ -352,15 +356,19 @@ Grid Area- Flow Chart
     background-color: transparent;
  }
   
-  /*.popup1, .popup2, .popup3, .popup4, .popup5, .close {
+
+  .popup1, .popup2, .popup3, .popup4, .popup5, .close {
+    
     margin-right: 1020px;
   }
 
   .subtitles p{ 
     font-size: 15px;
-    color: #FF3300;}
+    color: #FCF7F8;
+  text-decoration: none;}
 
-  .subscribe-button p {font-size: 15px;}*/
+  .subscribe-button p {font-size: 15px;}
+
   .charts-main-container p {
     font-size: 15px;}
 
