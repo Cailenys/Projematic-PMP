@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscription</title>
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/subscribe.css">
-    <script type="text/script" src="../javascript.js" defer></script>
+    <script type="text/javascript" src="../javascript.js" defer></script>
 </head>
+
 <body>
+    <!-- HEADER-->
+    <header class="header">
+
+        <!-- NAVEGATION BAR-->
+        <nav class=navBar>
+            <!-- Image Logo -->
+            <a class="logo-image" href="index.html"><img src="../images/projematic-log.png" alt="Projematic's Logo"></a>
+
+            <!-- Subscribe button-->
+            <!-- <button class="colored-focus">
+				<p>Subscribe</p>
+			</button> -->
+            <!-- Menu -->
+            <div class="menu-bar">
+                <ul class="menu">
+                    <li><a href="payment-method.html" class="navBar menu">Subscribe</a></li>
+                    <li><a href="#" class="navBar menu">Services</a> </li>
+                    <li><a href="index.html" class="active navBar">Home</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <section>
         <form>
             <div class="flexlogin">
@@ -26,14 +51,19 @@
                 </div>
                 <div>
                     <input name="rememberme" id="checked" type="checkbox"> Remember Me<br>
-                    <button type="submit">Login</button>
+                    <button name="submit" type="submit">Login</button>
                 </div>
             </div>
             <div class="fpassword">
-                <button class="cancelbtn" id="button">Cancel</button>
-                <span class="password"><a href="#">Forgot Password</a></span>
+                <span class="password"><a href="#">Forgot your password?</a></span>
             </div>
         </form>
     </section>
+    <footer>
+        <div class="flex-copyright">
+            <p>&copy; Copy Right 2020. All right reserved to Projematic</p>
+        </div>
+    </footer>
 </body>
+
 </html>

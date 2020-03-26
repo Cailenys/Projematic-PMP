@@ -301,29 +301,6 @@ Grid Area- Flow Chart
 ***********************************************
 ***********************************************/
 
-/*@media screen and (max-width: 700px){
-  .chart-container{
-    width: 70%;
-  }
-  .popup1 .popup2 .popup3 .popup4 .popup5 {
-    width: 70%;
-  }
-  /*.chart1 img, .chart2 img,  .chart3 img, .chart5 img{
-    background-size: cover ;
-    max-width: 1%;
-    float: left;
-
-  /*.charts-main-container {
-  
-    grid-template-columns: repeat(1,40%);
-    grid-template-rows: 50px 50px 50px 50px ;
- 
- }
-
-}
-/* Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {...}*/
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 740px) {
