@@ -40,7 +40,7 @@ label{
 
 input{
     display: inline-block;
-    text-align: center;
+    text-align: left;
     width: 250px;
     height: 25px;
     border-radius: 4rem;
@@ -49,7 +49,7 @@ input{
 }
 
 .mdate{
-    width: 100px;
+    width: 105px;
 }
 
 .confirmation{
@@ -117,6 +117,7 @@ ul {
     background-color:#C0C6D0;
     color:#17255A;
     border-radius: 4em;
+    font-size: 20px;
 }
   
 .menu li{

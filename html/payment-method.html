@@ -27,18 +27,12 @@
 			<div class="menu-bar">
 				<ul class="menu">
 					<li><a href="Subscription.html" class="navBar menu">Login</a></li>
-					<li><a href="#" class="navBar menu">LinkedIn</a> </li>
 					<li><a href="#" class="navBar menu">Services</a> </li>
 					<li><a href="index.html" class="active navBar">Home</a> </li>
 				</ul>
 			</div>
 
 		</nav>
-        <!-- <nav class="flex-nav">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">LinkedIn</a>
-        </nav> -->
     </header>
     <h2>Secure Order Form</h2>
     <section class="container">
@@ -55,8 +49,8 @@
                     <label>
                         Expiration Date
                     </label>
-                    <input class="mdate" name="monthdate" id="monthdate" type="text">
-                    <input class="mdate" name="yeardate" id="yeardate" type="text"><br>
+                    <input class="mdate" name="monthdate" id="monthdate" type="month">
+                    <input class="mdate" name="yeardate" id="yeardate" type="number" min="2010" max="2030"><br>
                 </div>
                 <div>
                     <label>
@@ -76,6 +70,12 @@
                         Email Address
                     </label>
                     <input name="email" id="email" type="text"><br>
+                </div>
+                <div>
+                    <label>
+                        Fee
+                    </label>
+                    <input name="price" placeholder="USD/CAD" type="number"><br>
                 </div>
                 <button id="submit">Submit</button>
             </form>
