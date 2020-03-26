@@ -10,8 +10,8 @@
 /******************************************************************************************
 ----------------------------------- COLOUR GUIDE ------------------------------------------
 # Light pink (backround): #FCF7F8
-# Transparent (Nav bar):#0D0D0D
-# Navy blue (text): #17255A
+# Transparent (Nav bar):#C0C6D0
+# Navy blue & Light white (text): #17255A & #FCF7F8
 *******************************************************************************************
 ******************************************************************************************/
 
@@ -277,14 +277,12 @@ Grid Area- Flow Chart
     margin-top: -60px ;
   }
  
-
   .chart4 img{
     margin-left: -10px;
     margin-top: -60px ;
   }
   
  
-
 /**********************************************
 *
 4.  Footer Content | Copy Rights
@@ -365,18 +363,14 @@ Grid Area- Flow Chart
   .subtitles p{ 
     font-size: 15px;
     color: #FCF7F8;
-  text-decoration: none;}
+    text-decoration: none;}
 
   .subscribe-button p {font-size: 15px;}
 
   .charts-main-container p {
     font-size: 15px;}
 
-  .charts-main-container i{ 
-   
-    font-size:30px
-   
-  }
+  .charts-main-container i{ font-size:30px}
     
 
   .charts-main-container i {
