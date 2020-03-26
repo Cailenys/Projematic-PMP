@@ -24,14 +24,12 @@
 *
 **********************************************/
 html {
-    background-color: white;
-    font-family: Arial, sans-serif;
-    font-family: 'Open Sans';
-    font-family: 'Montserrat';
-    background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/hero-img.jpg') top center no-repeat;
-    background-size: cover;
-   }
-  
+  background-color: white;
+  font-family: Tahoma, Georgia, sans-serif;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/25480/hero-img.jpg') top center no-repeat;
+  background-size: cover;
+ }
+
 
 /**********************************************
 *
@@ -43,112 +41,117 @@ html {
 h2{ text-align: center;}
 
 header h1{
- color: #0D0D0D;
- font-size: 10px;
- font-weight: bold;
+color: #0D0D0D;
+font-size: 10px;
+font-weight: bold;
 }
 
 
 
 header h3{ font-size:15px }
 header h1{
-  text-align: center;
+text-align: center;
 color: #00E6E6;
 }
 
 header h2{
- text-align: center;
- color:#FCF7F8;
- font-size: 15px;
+text-align: center;
+color:#FCF7F8;
+font-size: 15px;
 }
 
 /* Navegation bar */
 
 .menu-bar a.active { /*Add a color to the active/current link */
-    background-color: none;
-    color:#FCF7F8;
+  background-color: none;
+  color:#FCF7F8;
 }
-
+.menu-bar p{
+text-align: center;
+font-size: 12px;
+color: #FCF7F8;
+}
 li a {
-  color: #FCF7F8;
-  text-decoration: none;
-  display: block;
-  padding:5px;}
+color: #FCF7F8;
+text-decoration: none;
+display: block;
+width: 100px;
+padding:5px;
+text-align: center;}
 
-  
+
 ul {
-   list-style-type: none;
-   overflow: hidden;
-   background-color: transparent;
-   font-family: 'Montserrat';
-   margin: 0;
+ list-style-type: none;
+ overflow: hidden;
+ background-color: transparent;
+ font-family: 'inherit';
+ margin: 0;
 }
 
 .menu li a:hover {
-   background-color:#C0C6D0;
-   color:#17255A;
+ background-color:#C0C6D0;
+ color:#17255A;
+ border-radius:1em ;
 }
-  
+
 .menu li{
-  display: inline-block;
-   float: none;
-   height: 20px;
-   padding: 5px 5px 5px 5px;
-   text-decoration: none;
-   font-size: 12px;
-   line-height: 27px;
-   height: 20px;
-   margin-top: 11px;
-}
-    
-nav .logo-image img{ 
-  float: left;
-  height:30px;
-  width: 200px;
-  text-align: center;
-  margin: 27px 200px 0 100px;
-  background-color: transparent;
+display: inline-block;
+ float: none;
+ padding: 5px 5px 5px 5px;
+ text-decoration: none;
+ font-size: 12px;
+ line-height: 27px;
+  margin-top: 11px;
 }
   
+nav .logo-image img{ 
+float: left;
+height:30px;
+width: 200px;
+text-align: center;
+margin: 27px 200px 0 100px;
+background-color: transparent;
+}
+
 
 .header-box{margin-left: 40px;}
 .header-box h3{
-  position: relative;
-  top: 30px;
-  color: #00E6E6;
+position: relative;
+top: 30px;
+color: #00E6E6;
 }
-  
+
 .header-box h2{ margin-top: 35px;}
 
 button, .button-chart {
-  margin: 20px 10px;
-  border-radius: 1em;
-  border: none;
-  padding: 0 0.1em;
-  line-height: 0.1;
-  font-size: 1.25em;
-  font-family: inherit;
-  font-weight: 50;
-  text-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
-  background: #FF3300;
-  text-decoration: none;
+margin: 20px 10px;
+border-radius: 1em;
+border: none;
+padding: 0 0.1em;
+line-height: 0.1;
+font-size: 1.25em;
+font-family: inherit;
+font-weight: 50;
+text-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
+background: #FF3300;
+text-decoration: none;
 }
 
 button p, .button-chart h3 {
-  color: #FCF7F8;
-  font-size: 12px;
-  
+color: #FCF7F8;
+font-size: 12px;
+
 }
 
 .button-chart{
-  position: relative;
-  top: 230px;  }
+position: relative;
+top: 230px;  }
 
 .button-chart, button[class]  {
-  float: right;
-  max-width: 100px;
-  outline: none;
-  transition: all .25s;
+float: right;
+max-width: 100px;
+outline: none;
+transition: all .25s;
 }
 
 .colored-focus:hover {
@@ -160,143 +163,143 @@ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 3px 3px 15px 2px rgba( 255, 51, 0);
 Grid Area- Flow Chart
 *******************************/
 
- .charts-main-container {
-   display: grid;
-   grid-template-columns: auto;
-   grid-template-rows: 100px 100px 100px 100px ;
-   background-color: transparent;
+.charts-main-container {
+ display: grid;
+ grid-template-columns: auto;
+ grid-template-rows: 100px 100px 100px 100px ;
+ background-color: transparent;
 }
 .charts-main-container h1{ 
-   color: #FCF7F8;
-   font-size: 15px;
-   text-align: center;
-   margin-top: 50px;
+ color: #FCF7F8;
+ font-size: 15px;
+ text-align: center;
+ margin-top: 50px;
 }
 
 .chart1, .chart2, .chart3, .chart4, .chart5 {
-   background-color: transparent;
-   /*border-color: #FCF7F8; No working*/
-   cursor: pointer;
-   opacity: 0.9;
-   border-radius: 10px;
-   box-shadow: 0 9px 10px rgba(0, 0, 0, 1);
-   text-align: center;
-   text-decoration:none;
-   height: 450px;
-   margin: 1.5vw;
-   margin-top:2px ;
-  
+ background-color: transparent;
+ /*border-color: #FCF7F8; No working*/
+ cursor: pointer;
+ opacity: 0.9;
+ border-radius: 10px;
+ box-shadow: 0 9px 10px rgba(0, 0, 0, 1);
+ text-align: center;
+ text-decoration:none;
+ height: 450px;
+ margin: 1.5vw;
+ margin-top:2px ;
+ letter-spacing: 1px;
 }
 
 .chart5{ margin-right:20px ;}
-    
-
-  
-  /******************************
-     Pop-Up- Flow Chart
-  *******************************/
-  .overlay{  /* Following the examplo from this author: https://codepen.io/imprakash/pen/GgNMXO */
-   position: fixed;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background: rgba( 13, 13, 13, 0.7);
-   transition: opacity 500ms;
-   visibility: hidden;
-   opacity: 0;
-  }
-
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  .popup1 .popup2 .popup3 .popup4 .popup5{
-    
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    width: 20%;
-    position: relative;
-    transition: all 5s ease-in-out;
-  }
-  
-  .charts-main-container p {
-    margin-top: 0;
-    text-align: center;
-    color: #FF3300;
-  }
   
 
-  .popup1, .popup2, .popup3, .popup4, .popup5, .close {
-    position: fixed;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size:15px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #00E6E6;
-    margin-top: 80px;
-  }
 
-  .popup1 .popup2 .popup3 .popup4 .popup5 .close:hover {
-    color: #FF3300;
-  }
-  .popoup1 .popup2 .popup3 .popup4 .popup5 .content {
-    max-height: 20%;
-    overflow: auto;
-  }
-  
-  .content p, .close { 
-  
-    color: #FF3300;}
- 
- 
-  charts-main-container h3{
-    color: #FCF7F8;
-    font-size: 12px;
-  }
+/******************************
+   Pop-Up- Flow Chart
+*******************************/
+.overlay{  /* Following the examplo from this author: https://codepen.io/imprakash/pen/GgNMXO */
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: rgba( 13, 13, 13, 0.7);
+ transition: opacity 500ms;
+ visibility: hidden;
+ opacity: 0;
+}
 
-  .charts-main-container i{
-    color: transparent;
-  }
- 
-  .fa-download, .fa-times-circle{ 
-    margin-right: -60px;
-  }
- /******************************
-    Chart content
-  *******************************/
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
 
-  .chart1 img, .chart2 img,  .chart3 img, .chart5 img{
-    background-size: 100px ;
-    margin-left: -6px;
-    margin-top: -60px ;
-  }
- 
-  .chart4 img{
-    margin-left: -10px;
-    margin-top: -60px ;
-  }
+.popup1 .popup2 .popup3 .popup4 .popup5{
   
- 
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 20%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.charts-main-container p {
+  margin-top: 0;
+  text-align: center;
+  color: #FF3300;
+}
+
+
+.popup1, .popup2, .popup3, .popup4, .popup5, .close {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size:15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00E6E6;
+  margin-top: 80px;
+}
+
+.popup1 .popup2 .popup3 .popup4 .popup5 .close:hover {
+  color: #FF3300;
+}
+.popoup1 .popup2 .popup3 .popup4 .popup5 .content {
+  max-height: 20%;
+  overflow: auto;
+}
+
+.content p, .close { 
+
+  color: #FF3300;}
+
+
+charts-main-container h3{
+  color: #FCF7F8;
+  font-size: 12px;
+}
+
+.charts-main-container i{
+  color: transparent;
+}
+
+.fa-download, .fa-times-circle{ 
+  margin-right: -60px;
+}
+/******************************
+  Chart content
+*******************************/
+
+.chart1 img, .chart2 img,  .chart3 img, .chart5 img{
+  background-size: 100px ;
+  margin-left: -6px;
+  margin-top: -60px ;
+}
+
+.chart4 img{
+  margin-left: -10px;
+  margin-top: -60px ;
+}
+
+
 /**********************************************
 *
 4.  Footer Content | Copy Rights
 *
 **********************************************/
- 
-  footer p {
-    text-align: center;
-    font-size: 10px;
-    color: #FCF7F8;
-    margin-top: 300px; 
-  }
 
-  
+footer p {
+  text-align: center;
+  font-size: 10px;
+  color: #FCF7F8;
+  margin-top: 300px; 
+}
+
+
 /**********************************************
 ***********************************************
 7. Media Queries  
@@ -307,74 +310,86 @@ Grid Area- Flow Chart
 
 @media only screen and (min-width: 740px) {
 
-  button, .button-chart {
-    margin: 27px 20px;
-    border-radius: 1em;
-    border: none;
-    padding: 0 0.5em;
-    line-height: 0.1;
-    font-size: 1.25em;
-    font-family: inherit;
-    font-weight: 50;
-    text-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
-    background: #FF3300;
-    text-decoration: none;
-  }
-  button{margin-top: 37px;}
-  header h1{
-    color: #00E6E6;
+.subscribe-button, .button-chart {
+  margin: 10px 20px;
+  border-radius: 1em;
+  border: none;
+  padding: 0 0.5em;
+  font-size: 1.25em;
+  font-family: inherit;
+  font-weight: 50;
+  text-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
+  background: #FF3300;
+  text-decoration: none;
+ }
+.subscribe-button{
+  height: 32px;
+
+}
+.button-chart{
+  height: 27px;
+}
+.subscribe-button p{
+ font-size: 15px;
+ margin-top: 10px;
+ align-content: center;
+ justify-content: center; 
+}
+
+button{margin-top: 37px;}
+header h1{
+  color: #00E6E6;
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+ header h2{ 
+  color: #FCF7F8;
+  font-size: 30px;}
+
+.charts-main-container h1{
     font-size: 20px;
-    font-weight: bold;
-   }
+  }
+.navBar li{ font-size: 20px;}
 
-   header h2{ 
-    color: #FCF7F8;
-    font-size: 30px;}
+.menu li{
+  float: right;
+  height: 20px;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  line-height: 27px;
+  height: 20px;
+}
 
-  .charts-main-container h1{
-      font-size: 20px;
-    }
-  .navBar li{ font-size: 20px;}
+footer p {font-size: 12px;}
 
-  .menu li{
-    float: right;
-    height: 20px;
-    padding: 20px 20px 20px 20px;
-    text-decoration: none;
-    line-height: 27px;
-    height: 20px;
- }
+.charts-main-container {
+  display: grid;
+  grid-template-columns: repeat(5,20%);
+  grid-template-rows: 100px 100px 100px 100px ;
+  background-color: transparent;
+}
 
-  footer p {font-size: 12px;}
 
-  .charts-main-container {
-    display: grid;
-    grid-template-columns: repeat(5,20%);
-    grid-template-rows: 100px 100px 100px 100px ;
-    background-color: transparent;
- }
+.popup1, .popup2, .popup3, .popup4, .popup5, .close {
+  margin-right: 1020px;
+}
+
+.subtitles p{ 
+  font-size: 15px;
+  color: #FCF7F8;
+  text-decoration: none;}
+
+/*.subscribe-button p {font-size: 15px;}*/
+
+.charts-main-container p {
+  font-size: 15px;}
+
+.charts-main-container i{ font-size:30px}
   
 
-  .popup1, .popup2, .popup3, .popup4, .popup5, .close {
-    
-    margin-right: 1020px;
-  }
-
-  .subtitles p{ 
-    font-size: 15px;
-    color: #FCF7F8;
-    text-decoration: none;}
-
-  .subscribe-button p {font-size: 15px;}
-
-  .charts-main-container p {
-    font-size: 15px;}
-
-  .charts-main-container i{ font-size:30px}
-    
-
-  .charts-main-container i {
-    color: #FCF7F8;
-    float: right;
-    margin-top:-40px}
+.charts-main-container i {
+  color: #FCF7F8;
+  float: right;
+  margin-top:-40px}
 }
