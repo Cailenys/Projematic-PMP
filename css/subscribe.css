@@ -138,6 +138,8 @@ ul {
     color:#17255A;
     border-radius: 4em;
     font-size: 20px;
+    width: 100px;
+    text-align: center;
 }
   
 .menu li{
