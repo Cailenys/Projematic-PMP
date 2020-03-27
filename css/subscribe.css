@@ -63,7 +63,9 @@ button {
 }
 
 .password{
-    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
 }
 
 footer{
