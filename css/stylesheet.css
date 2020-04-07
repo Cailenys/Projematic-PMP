@@ -104,14 +104,6 @@ display: inline-block;
   margin-top: 11px;
 }
   
-nav .logo-image img{ 
-float: left;
-height:30px;
-width: 200px;
-text-align: center;
-margin: 27px 200px 0 100px;
-background-color: transparent;
-}
 
 
 .header-box{margin-left: 40px;}
