@@ -48,7 +48,8 @@ font-weight: bold;
 
 
 
-header h3{ font-size:15px }
+header h3{ font-size: 15px }
+
 header h1{
 text-align: center;
 color: #00E6E6;
@@ -61,6 +62,8 @@ font-size: 15px;
 }
 
 /* Navegation bar */
+
+
 
 .menu-bar a.active { /*Add a color to the active/current link */
   background-color: none;
@@ -85,9 +88,10 @@ ul {
  overflow: hidden;
  background-color: transparent;
  font-family: 'inherit';
- margin: 0;
+ margin-top: 10px;
 }
 
+.menu-bar{ margin-bottom: 100px;}
 .menu li a:hover {
  background-color:#C0C6D0;
  color:#17255A;
@@ -104,7 +108,10 @@ display: inline-block;
   margin-top: 11px;
 }
   
-
+.logo img{
+  margin: 20px 50px;
+  width: 250px;
+  height: 40px;}
 
 .header-box{margin-left: 40px;}
 .header-box h3{
@@ -201,7 +208,7 @@ Grid Area- Flow Chart
  visibility: hidden;
  opacity: 0;
 }
-
+.overlay h3 { text-align:center;}
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -344,10 +351,14 @@ header h1{
   }
 .navBar li{ font-size: 20px;}
 
+.logo-image{
+  float: left;}
+
+
 .menu li{
   float: right;
   height: 20px;
-  padding: 20px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   text-decoration: none;
   line-height: 27px;
   height: 20px;
